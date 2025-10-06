@@ -1,7 +1,8 @@
 {
   "functions": {
-    "api/*.ts": {
-      "includeFiles": "build/**"
+    "api/render.ts": {
+      "includeFiles": "build/**",
+      "runtime": "nodejs20.x"
     }
   },
   "routes": [
